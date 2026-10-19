@@ -23,10 +23,10 @@
 - TreeMap：按键的大小或指定规则排序。
 
 #### Q2.增强for循环
-##### 代码：[Main4task1.java](../work4-code/src/com/Main4task1.java)
+##### 代码：[Main4task1.java](../代码/src/com/Main4task1.java)
 ##### 运行结果（部分输出）：
 
-![集合遍历运行结果](images/Q2-Q3-集合遍历.png)
+![集合遍历运行结果](../images/Q2-Q3-集合遍历.png)
 
 #### Q3.匿名内部类、函数式接口和lambda
 ##### 1.匿名内部类：不单独给类起名字，创建对象的时候，直接把需要实现的方法写出来。比如题目里创建Consumer对象时，就写了accept方法的实现。
@@ -39,35 +39,35 @@
 - 多个参数要加括号，比如 `(a, b) ->`。
 - 方法体有多条语句时，要用大括号包起来；如果还需要返回值，就在里面写return。
 
-##### 代码：[Main4task2.java](../work4-code/src/com/Main4task2.java)
+##### 代码：[Main4task2.java](../代码/src/com/Main4task2.java)
 ##### 运行结果：和Q2一样，每次遍历输出1、2、3、4，上面的截图保留了部分输出。
 
 ## task2 泛型
 #### Q4.仓库
 ##### 代码：
-- [Repository.java](../work4-code/src/com/Repository.java)
-- [Myrepository.java](../work4-code/src/com/Myrepository.java)
-- [User.java](../work4-code/src/com/User.java)
-- [Main4task3.java](../work4-code/src/com/Main4task3.java)
+- [Repository.java](../代码/src/com/Repository.java)
+- [Myrepository.java](../代码/src/com/Myrepository.java)
+- [User.java](../代码/src/com/User.java)
+- [Main4task3.java](../代码/src/com/Main4task3.java)
 
 ##### 运行结果（部分输出）：
 
-![泛型仓库运行结果](images/Q4-泛型仓库.png)
+![泛型仓库运行结果](../images/Q4-泛型仓库.png)
 
 ## task3 面向对象设计模式
 #### Q5.角色创建系统
 ##### 代码：
-- [Character.java](../work4-code/src/Character.java)
-- [CharacterType.java](../work4-code/src/CharacterType.java)
-- [Saber.java](../work4-code/src/Saber.java)
-- [Archer.java](../work4-code/src/Archer.java)
-- [Caster.java](../work4-code/src/Caster.java)
-- [characterFactory.java](../work4-code/src/characterFactory.java)
-- [Main4task4.java](../work4-code/src/Main4task4.java)
+- [Character.java](../代码/src/Character.java)
+- [CharacterType.java](../代码/src/CharacterType.java)
+- [Saber.java](../代码/src/Saber.java)
+- [Archer.java](../代码/src/Archer.java)
+- [Caster.java](../代码/src/Caster.java)
+- [characterFactory.java](../代码/src/characterFactory.java)
+- [Main4task4.java](../代码/src/Main4task4.java)
 
 ##### 运行结果：
 
-![角色工厂运行结果](images/Q5-角色工厂.png)
+![角色工厂运行结果](../images/Q5-角色工厂.png)
 
 #### 做题过程和一点感受
 这题先用增强for遍历list，又写了普通for作对比，感觉增强for确实方便。后面写lambda时，先把它赋给Consumer变量再传给forEach，又试了直接把lambda写进forEach里，刚开始理解有点困难，后面多找了几个题练了一下才搞清楚哪些可以省。我在代码里记的是“感觉像是创建对象又重写了方法”，这样和匿名内部类联系起来就好理解一些。
