@@ -23,7 +23,7 @@
 - TreeMap：按键的大小或指定规则排序。
 
 #### Q2.增强for循环
-##### 代码：[Main4task1.java](代码/src/com/Main4task1.java)
+##### 代码：[Main4task1.java](../work4-code/src/com/Main4task1.java)
 ##### 运行结果（部分输出）：
 
 ![集合遍历运行结果](images/Q2-Q3-集合遍历.png)
@@ -39,16 +39,16 @@
 - 多个参数要加括号，比如 `(a, b) ->`。
 - 方法体有多条语句时，要用大括号包起来；如果还需要返回值，就在里面写return。
 
-##### 代码：[Main4task2.java](代码/src/com/Main4task2.java)
+##### 代码：[Main4task2.java](../work4-code/src/com/Main4task2.java)
 ##### 运行结果：和Q2一样，每次遍历输出1、2、3、4，上面的截图保留了部分输出。
 
 ## task2 泛型
 #### Q4.仓库
 ##### 代码：
-- [Repository.java](代码/src/com/Repository.java)
-- [Myrepository.java](代码/src/com/Myrepository.java)
-- [User.java](代码/src/com/User.java)
-- [Main4task3.java](代码/src/com/Main4task3.java)
+- [Repository.java](../work4-code/src/com/Repository.java)
+- [Myrepository.java](../work4-code/src/com/Myrepository.java)
+- [User.java](../work4-code/src/com/User.java)
+- [Main4task3.java](../work4-code/src/com/Main4task3.java)
 
 ##### 运行结果（部分输出）：
 
@@ -57,13 +57,13 @@
 ## task3 面向对象设计模式
 #### Q5.角色创建系统
 ##### 代码：
-- [Character.java](代码/src/Character.java)
-- [CharacterType.java](代码/src/CharacterType.java)
-- [Saber.java](代码/src/Saber.java)
-- [Archer.java](代码/src/Archer.java)
-- [Caster.java](代码/src/Caster.java)
-- [characterFactory.java](代码/src/characterFactory.java)
-- [Main4task4.java](代码/src/Main4task4.java)
+- [Character.java](../work4-code/src/Character.java)
+- [CharacterType.java](../work4-code/src/CharacterType.java)
+- [Saber.java](../work4-code/src/Saber.java)
+- [Archer.java](../work4-code/src/Archer.java)
+- [Caster.java](../work4-code/src/Caster.java)
+- [characterFactory.java](../work4-code/src/characterFactory.java)
+- [Main4task4.java](../work4-code/src/Main4task4.java)
 
 ##### 运行结果：
 
